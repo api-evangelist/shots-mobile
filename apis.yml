@@ -1,7 +1,25 @@
 aid: shots-mobile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shots-mobile.png
 name: Shots Mobile
-description: Shots Mobile is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Shots Mobile, Inc. is the company founded by John and Sam Shahidi that
+  built the Shots selfie photo-sharing app (2013) and grew from mobile-game studio
+  RockLive into a podcast and media business. Today shots.com presents SHOTS as a
+  media company that helps creators turn shows into businesses through partnerships,
+  distribution, and growth resources. It publishes a marketing/content website on
+  WordPress.com and exposes no first-party developer or API product surface; there
+  is no public documentation, SDK, or hosted API. Surfaced as a portfolio company
+  of 500 Global and added to the API Evangelist network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/shots-mobile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Media
+- Podcast
+- Content
+- Mobile
+- Social
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shots-mobile-domain-security.yml
 - type: Website
   url: https://shots.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
