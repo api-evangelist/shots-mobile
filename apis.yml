@@ -44,14 +44,12 @@ modified: '2026-07-21'
 tags:
 - Company
 - Media
-- Podcasts
 - Content
 - Mobile
 - Social
 tags_raw:
 - Company
 - Media
-- Podcast
 - Content
 - Mobile
 - Social
@@ -71,3 +69,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Podcasts
